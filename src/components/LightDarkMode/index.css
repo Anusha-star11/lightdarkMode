@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.lightdarkmode {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.innerBlock {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+}
+.heading {
+  font-family: 'Roboto';
+}
+.DarkMode {
+  background-color: black;
+}
+.LightMode {
+  background-color: white;
+}
